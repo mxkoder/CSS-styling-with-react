@@ -3,3 +3,52 @@
 h1 {
     color: yellow;
 }
+
+
+// @if ($font-size == 32px) { // at-rule: if statement
+//     text-transform: uppercase;
+//   }
+
+// // at-rule: mixin
+// @mixin my-heading($color, $font-size: 22px) { 
+//     color: $color;
+//     margin: 0 0 20px;
+//     font-size: $font-size;
+
+
+// .tooltip {
+//     width: 600px / 960px * 100%; // operators
+  
+//     p { // .tooltip p {}
+//       font-style: italic;
+//       a { // .tooltip p a {}
+//         color: map-get($colors, primary); // map usage
+//       }
+//     }
+  
+//     &:hover { // .tooltip:hover {}
+//       box-shadow: 0 0 4px rgba(black, 0.3);
+//     }
+  
+//     &--warning { // .tooltip--warning {}
+//       background-color: #ffe8aa;
+//     }
+//   }
+
+
+
+// @for $i from 1 through 4 { // at-rule @for loop
+//     .padding-#{$i} {
+//       padding: $i * 10px;
+//     }
+//   }
+  
+//   // compiles to
+  
+//   .padding-1 {padding: 10px;}
+  
+//   .padding-2 {padding: 20px;}
+  
+//   .padding-3 {padding: 30px;}
+  
+//   .padding-4 {padding: 40px;}
